@@ -4,6 +4,7 @@
   "alias": "Deebot",
   "type": "module",
   "version": "7.4.1",
+  "private": true,
   "description": "Homebridge plugin to integrate Ecovacs Deebot/Yeedi devices into HomeKit.",
   "author": {
     "name": "bwp91",
