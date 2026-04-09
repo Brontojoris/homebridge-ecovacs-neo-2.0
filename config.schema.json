@@ -27,15 +27,23 @@
       },
       "username": {
         "title": "Ecovacs/Yeedi Username",
-        "required": true,
         "type": "string",
-        "description": "Your username, if your account is based in China you should use your Ecovacs ID."
+        "description": "Your username, if your account is based in China you should use your Ecovacs ID. Not required when using NEO 2.0 JWT authentication."
       },
       "password": {
         "title": "Ecovacs/Yeedi Password",
-        "required": true,
         "type": "string",
-        "description": "Your password, can also be a base64 encoded version of your password."
+        "description": "Your password, can also be a base64 encoded version of your password. Not required when using NEO 2.0 JWT authentication."
+      },
+      "accessToken": {
+        "title": "NEO 2.0 Access Token",
+        "type": "string",
+        "description": "JWT access token for Deebot NEO 2.0 authentication. When provided, username and password are not required. The token expires after approximately 7 days and will be automatically refreshed using the refresh token."
+      },
+      "refreshToken": {
+        "title": "NEO 2.0 Refresh Token",
+        "type": "string",
+        "description": "JWT refresh token for Deebot NEO 2.0 authentication. Used to automatically obtain a new access token when the current one expires."
       },
       "disableDeviceLogging": {
         "type": "boolean",
