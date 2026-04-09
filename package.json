@@ -1,13 +1,16 @@
 {
-  "name": "@homebridge-plugins/homebridge-ecovacs",
-  "displayName": "Homebridge Ecovacs",
+  "name": "ecovacs-with-neo-2.0-support",
+  "displayName": "Ecovacs NEO 2.0",
   "alias": "Deebot",
   "type": "module",
-  "version": "7.4.0",
+  "version": "7.4.1",
   "description": "Homebridge plugin to integrate Ecovacs Deebot/Yeedi devices into HomeKit.",
   "author": {
     "name": "bwp91",
     "email": "bwp91@icloud.com"
+  },
+  "contributor": {
+    "name": "Brontojoris"
   },
   "license": "MIT",
   "funding": [
