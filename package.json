@@ -1,18 +1,15 @@
 {
-  "name": "ecovacs-with-neo-2.0-support",
+  "name": "homebridge-ecovacs-neo-support",
   "displayName": "Ecovacs NEO 2.0",
-  "alias": "Deebot",
+  "alias": "Deebot NEO",
   "type": "module",
   "version": "7.4.1",
   "private": true,
   "description": "Update to Ecovacs plugin to support NEO 2.0 devices into HomeKit.",
   "author": {
-    "name": "bwp91",
-    "email": "bwp91@icloud.com"
-  },
-  "contributor": {
-    "name": "Brontojoris"
-  },
+    "name": "Brontojoris",
+    "email": "joris@brontojoris.com"
+  }
   "license": "MIT",
   "funding": [
     {
